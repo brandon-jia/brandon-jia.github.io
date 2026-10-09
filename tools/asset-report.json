@@ -1,0 +1,263 @@
+{
+  "google_fonts_commit": "51303ca9e8ac9dcea7b12d307ba568fd0e6fcfca",
+  "fonts": [
+    {
+      "file": "literata.woff2",
+      "before_bytes": 150980,
+      "after_bytes": 112492,
+      "rebuilt": true,
+      "before_features": [
+        "aalt",
+        "c2sc",
+        "case",
+        "ccmp",
+        "dlig",
+        "dnom",
+        "frac",
+        "liga",
+        "lnum",
+        "locl",
+        "numr",
+        "onum",
+        "ordn",
+        "pnum",
+        "rvrn",
+        "sinf",
+        "smcp",
+        "ss02",
+        "subs",
+        "sups",
+        "tnum",
+        "zero"
+      ],
+      "after_features": [
+        "ccmp",
+        "dnom",
+        "frac",
+        "liga",
+        "lnum",
+        "locl",
+        "numr",
+        "onum",
+        "pnum",
+        "rvrn",
+        "tnum"
+      ],
+      "axes": [
+        "opsz",
+        "wght"
+      ],
+      "upstream_missing": [],
+      "subset_missing": []
+    },
+    {
+      "file": "cormorant-garamond.woff2",
+      "before_bytes": 58948,
+      "after_bytes": 30540,
+      "rebuilt": true,
+      "before_features": [
+        "aalt",
+        "c2sc",
+        "calt",
+        "case",
+        "ccmp",
+        "cv01",
+        "cv02",
+        "cv05",
+        "dlig",
+        "dnom",
+        "frac",
+        "hlig",
+        "liga",
+        "lnum",
+        "locl",
+        "numr",
+        "onum",
+        "ordn",
+        "sinf",
+        "smcp",
+        "ss01",
+        "ss03",
+        "ss04",
+        "ss05",
+        "ss06",
+        "ss12",
+        "ss13",
+        "subs",
+        "sups",
+        "tnum",
+        "zero"
+      ],
+      "after_features": [
+        "calt",
+        "dnom",
+        "frac",
+        "liga",
+        "lnum",
+        "locl",
+        "numr",
+        "onum",
+        "tnum"
+      ],
+      "axes": [
+        "wght"
+      ],
+      "upstream_missing": [],
+      "subset_missing": []
+    },
+    {
+      "file": "source-sans.woff2",
+      "before_bytes": 43976,
+      "after_bytes": 24088,
+      "rebuilt": true,
+      "before_features": [
+        "aalt",
+        "c2sc",
+        "case",
+        "ccmp",
+        "cv01",
+        "cv02",
+        "cv03",
+        "cv04",
+        "cv05",
+        "cv17",
+        "cv18",
+        "cv19",
+        "dlig",
+        "dnom",
+        "frac",
+        "hlig",
+        "liga",
+        "locl",
+        "numr",
+        "onum",
+        "ordn",
+        "pnum",
+        "salt",
+        "sinf",
+        "smcp",
+        "ss01",
+        "ss02",
+        "ss03",
+        "ss04",
+        "ss05",
+        "ss06",
+        "ss09",
+        "ss10",
+        "subs",
+        "sups",
+        "titl",
+        "zero"
+      ],
+      "after_features": [
+        "ccmp",
+        "dnom",
+        "frac",
+        "liga",
+        "locl",
+        "numr",
+        "onum",
+        "pnum"
+      ],
+      "axes": [
+        "wght"
+      ],
+      "upstream_missing": [
+        "lnum",
+        "tnum"
+      ],
+      "subset_missing": [
+        "lnum",
+        "tnum"
+      ]
+    },
+    {
+      "file": "cormorant-garamond-italic.woff2",
+      "before_bytes": 43908,
+      "after_bytes": 32292,
+      "rebuilt": true,
+      "before_features": [
+        "aalt",
+        "calt",
+        "case",
+        "ccmp",
+        "cv01",
+        "cv02",
+        "cv03",
+        "cv04",
+        "cv05",
+        "dlig",
+        "dnom",
+        "frac",
+        "hlig",
+        "liga",
+        "lnum",
+        "locl",
+        "numr",
+        "onum",
+        "ordn",
+        "pnum",
+        "sinf",
+        "ss01",
+        "ss03",
+        "ss04",
+        "ss07",
+        "ss08",
+        "ss13",
+        "subs",
+        "sups",
+        "tnum",
+        "zero"
+      ],
+      "after_features": [
+        "calt",
+        "dnom",
+        "frac",
+        "liga",
+        "lnum",
+        "locl",
+        "numr",
+        "onum",
+        "pnum",
+        "tnum"
+      ],
+      "axes": [
+        "wght"
+      ],
+      "upstream_missing": [],
+      "subset_missing": []
+    }
+  ],
+  "poses": [
+    {
+      "file": "panda-peek.png",
+      "width": 306,
+      "height": 163,
+      "bytes": 67135
+    },
+    {
+      "file": "panda-peek.webp",
+      "width": 306,
+      "height": 163,
+      "bytes": 31388
+    },
+    {
+      "file": "panda-curled.webp",
+      "width": 268,
+      "height": 218,
+      "bytes": 35228
+    },
+    {
+      "file": "panda-linework.webp",
+      "width": 244,
+      "height": 233,
+      "bytes": 30458
+    }
+  ],
+  "og_image": {
+    "width": 1200,
+    "height": 630,
+    "bytes": 75053
+  },
+  "note": "Upstream-missing features are reported honestly; no synthetic OpenType features are added."
+}

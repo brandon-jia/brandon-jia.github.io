@@ -3,9 +3,36 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<script>
+document.documentElement.className="js";
+if(location.protocol==="http:"||location.protocol==="https:"){
+  for(const file of ["literata.woff2","cormorant-garamond.woff2"]){
+    const hint=document.createElement("link");hint.rel="preload";hint.href="../assets/"+file;
+    hint.as="font";hint.type="font/woff2";hint.crossOrigin="anonymous";document.head.append(hint);
+  }
+}
+</script>
 <meta name="description" content="Brandon Jia’s résumé: education, research, leadership, honors, and skills.">
+<link rel="canonical" href="https://brandon-jia.github.io/resume/">
+<meta name="theme-color" content="#ffffff">
+<meta name="author" content="Brandon Jia">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Brandon Jia">
+<meta property="og:title" content="Résumé · Brandon Jia">
+<meta property="og:description" content="Brandon Jia’s résumé: education, research, leadership, honors, and skills.">
+<meta property="og:url" content="https://brandon-jia.github.io/resume/">
+<meta property="og:image" content="https://brandon-jia.github.io/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Brandon Jia, with a red panda peeking over a rust line.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Résumé · Brandon Jia">
+<meta name="twitter:description" content="Brandon Jia’s résumé: education, research, leadership, honors, and skills.">
+<meta name="twitter:image" content="https://brandon-jia.github.io/assets/og-image.png">
 <title>Résumé · Brandon Jia</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 26'%3E%3Ccircle cx='12' cy='15' r='8.5' fill='none' stroke='%23a8452f' stroke-width='5' stroke-dasharray='4 2.67'/%3E%3Cpath d='M5 8.5L5.6 2l5.4 4M19 8.5L18.4 2 13 6' fill='%23a8452f'/%3E%3C/svg%3E">
+<link rel="icon" href="../favicon.ico" sizes="48x48">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <link rel="stylesheet" href="../site.css">
 </head>
 <body class="res" id="top">
@@ -36,16 +63,19 @@
   <div class="hero">
     <div class="rhead"><h1 class="name">Résumé</h1><div class="modes" aria-label="Résumé format"><a href="index.html" aria-current="page">View</a><a href="../assets/Brandon-Jia-Highlights.pdf">PDF</a></div></div>
     <p class="meta"><a href="mailto:bljia2020@gmail.com">bljia2020@gmail.com</a> &nbsp;·&nbsp; Chapel Hill, NC</p>
-    <div class="ledge" aria-hidden="true"><img class="pk" src="../assets/panda-peek.png" alt=""><div class="div"><i></i><b></b></div></div>
+    <div class="ledge" aria-hidden="true"><span class="pkw line"><img class="pk" src="../assets/panda-linework.webp" alt="" width="244" height="233"></span><div class="div"><i></i><b></b></div></div>
   </div>
 
   <section aria-labelledby="edt">
     <h2 id="edt"><svg class="ic" aria-hidden="true"><use href="#cap"/></svg>Education<i class="rl"></i></h2>
+    <div class="exp-list">
     <article class="exp">
+      <span class="exp-marker" aria-hidden="true"></span>
       <p class="meta">Class of 2028</p>
-      <div><h3>East Chapel Hill High School</h3><p class="role">GPA: 4.00 unweighted / 4.73 weighted · SAT: 1560</p><p class="m">Dual-enrolled at NC State; online student at NCSSM.</p><p>Completed Calculus III and Advanced Linear Algebra at NC State; currently taking Applied Differential Equations I.</p></div>
+      <div><h3>East Chapel Hill High School</h3><p class="role">GPA: 4.00 unweighted · SAT: 1560</p><p class="m">Dual-enrolled at NC State; online student at NCSSM.</p><p>Completed Calculus III and Advanced Linear Algebra at NC State; currently taking Applied Differential Equations I.</p></div>
     </article>
-  </section>
+      </div>
+</section>
 
   <section aria-labelledby="rst">
     <h2 id="rst"><svg class="ic" aria-hidden="true"><use href="#book"/></svg>Research<i class="rl"></i></h2>
@@ -64,23 +94,29 @@
 
   <section aria-labelledby="ext">
     <h2 id="ext"><svg class="ic" aria-hidden="true"><use href="#branch"/></svg>Experience and leadership<i class="rl"></i></h2>
+    <div class="exp-list">
     <article class="exp">
+      <span class="exp-marker" aria-hidden="true"></span>
       <p class="meta">2026–present</p>
       <div><h3>Integrated Mathematics</h3><p class="role">Founder and Director</p><ul class="bl"><li>Directed math tournaments with a combined 500+ registrants from 60+ countries and $1,500 in prizes.</li><li>Built an adaptive competition-math diagnostic with 50+ original problems.</li></ul></div>
     </article>
     <article class="exp">
-      <p class="meta">2026–present</p>
+      <span class="exp-marker" aria-hidden="true"></span>
+      <p class="meta same"><span class="vh">2026–present</span></p>
       <div><h3>East Chapel Hill DECA</h3><p class="role">President</p><p>Leading a 130+ member chapter and a 25+ member officer team.</p></div>
     </article>
     <article class="exp">
-      <p class="meta">2026–present</p>
+      <span class="exp-marker" aria-hidden="true"></span>
+      <p class="meta same"><span class="vh">2026–present</span></p>
       <div><h3>East Chapel Hill Math Club</h3><p class="role">President</p><p>Organizing in-person and virtual events for mathematical growth.</p></div>
     </article>
     <article class="exp">
+      <span class="exp-marker" aria-hidden="true"></span>
       <p class="meta">Summer 2026</p>
       <div><h3>MIT Beaver Works Summer Institute</h3><p class="role">Quantum Software Development</p><p>Led a team studying perfect quantum strategies for matching games.</p></div>
     </article>
-  </section>
+      </div>
+</section>
 
   <section aria-labelledby="hnt">
     <h2 id="hnt"><svg class="ic" aria-hidden="true"><use href="#medal"/></svg>Selected honors<i class="rl"></i></h2>
@@ -104,9 +140,10 @@
   </section>
 </main>
 <footer class="wrap">
-  <div class="ledge" aria-hidden="true"><img class="pk" src="../assets/panda-peek.png" alt=""><div class="div"><i></i><b></b></div></div>
+  <div class="ledge" aria-hidden="true"><span class="pkw"><picture><source srcset="../assets/panda-peek.webp" type="image/webp"><img class="pk" src="../assets/panda-peek.png" alt="" width="306" height="163"></picture></span><div class="div"><i></i><b></b></div></div>
   <div class="links"><a href="../index.html">Back to the website <span aria-hidden="true">→</span></a><a href="mailto:bljia2020@gmail.com">Say hello</a></div>
-  <p class="colophon">Brandon Jia · 贾越衡</p>
+  <p class="elsewhere"><span class="meta">Elsewhere</span> <a href="https://github.com/brandon-jia" rel="me">GitHub</a><!-- Brandon: fill in real URLs and uncomment: <a href="[LINKEDIN_URL]" rel="me">LinkedIn</a> <a href="[SCHOLAR_OR_ORCID_URL]" rel="me">Scholar</a> --></p>
+  <p class="colophon">Brandon Jia · <span lang="zh-Hans">贾越衡</span> · Last updated <time datetime="2026-10">October 2026</time></p>
 </footer>
 <script src="../site.js"></script>
 </body>
