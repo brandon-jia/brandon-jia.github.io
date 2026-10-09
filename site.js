@@ -27,8 +27,13 @@ if (tailLinks.length) {
 }
 function moveTail() {
   if (!tail) return;
-  const focused = tailLinks.find(link => link.matches(':focus-visible'));
-  const target = focused || hoveredLink || tailLinks.find(link => link.hasAttribute('aria-current')) || tailLinks[0];
+  const focused = tailLinks.find(link => link.matches(':focus'));
+  const target = focused || hoveredLink || tailLinks.find(link => link.hasAttribute('aria-current'));
+  if (!target) {
+    tail.style.opacity = '0';
+    return;
+  }
+  tail.style.opacity = '1';
   const parent = navigation.getBoundingClientRect();
   const box = target.getBoundingClientRect();
   const width = Math.min(58, Math.max(0, box.width - 8));
